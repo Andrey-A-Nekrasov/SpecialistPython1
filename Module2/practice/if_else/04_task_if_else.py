@@ -4,4 +4,10 @@
 # а если делится на 3 и на 5 - вывести "Foobar".
 # Для всех остальных случаев не выводить ничего.
 
-# TODO: your code here
+X = int(input("целое число: "))
+if X/3%1 == 0 :
+    print("Foo")
+if X/5%1 == 0 :
+    print("Bar")
+if X/3%1 + X/5%1 == 0 :
+    print("FooBar")
